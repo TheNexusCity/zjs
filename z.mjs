@@ -1938,7 +1938,7 @@ const nullEvent = new ZNullEvent();
 
 // globalThis.maxHistoryLength = 0;
 // globalThis.maxHistoryTailLength = 0;
-function applyUpdate(doc, uint8Array, transactionOrigin, playerId) {
+function applyUpdate(doc, uint8Array, transactionOrigin) {
   const dataView = _makeDataView(uint8Array);
   
   let index = 0;
